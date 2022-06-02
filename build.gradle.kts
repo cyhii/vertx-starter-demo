@@ -31,6 +31,7 @@ application {
 dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("io.vertx:vertx-config")
+  implementation("io.vertx:vertx-kafka-client")
   implementation("io.vertx:vertx-lang-kotlin")
   implementation("io.vertx:vertx-lang-kotlin-coroutines")
   implementation("org.slf4j:slf4j-api:1.7.35")
